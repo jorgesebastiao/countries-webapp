@@ -61,7 +61,7 @@
             <p class="country-detail-text">
               <strong>Border Countries:</strong>
             </p>
-            <ng-container *ngIf="!isEmpty()">
+            <ng-container *ngIf="hasBorders(); else empty">
               <div class="country-detail-button-wrapper">
                 <button
                   *ngFor="let borderCountry of country.borders"
@@ -73,9 +73,11 @@
                 </button>
               </div>
             </ng-container>
-            <ng-container *ngIf="isEmpty()">
-              <p>This country has no border countries</p>
-            </ng-container>
+            <ng-template #empty>
+              <p class="country-detail-text">
+                This country has no border countries
+              </p>
+            </ng-template>
           </div>
         </div>
       </div>

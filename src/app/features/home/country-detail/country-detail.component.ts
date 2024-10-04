@@ -48,10 +48,10 @@ export class CountryDetailComponent implements OnInit {
   }
 
   get borderCountries() {
-    return this.country.borders;
+    return this.country?.borders;
   }
 
-  isEmpty(): boolean {
-    return this.borderCountries && this.borderCountries.length == 0;
+  hasBorders(): boolean {
+    return this.borderCountries && this.borderCountries.length > 0;
   }
 }
