@@ -3,9 +3,7 @@ import { CountryViewModel } from './models/countries.model';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { CountryService } from './country.service';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class CountryDataService {
   private readonly _countries = new BehaviorSubject<CountryViewModel[]>([]);
   private countriesApi: CountryViewModel[] = [];

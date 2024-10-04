@@ -7,6 +7,7 @@ import { CommonModule, DecimalPipe } from '@angular/common';
 import { CurrencyFormatPipe } from '../shared/pipes/currency-format.pipe';
 import { LanguageFormatPipe } from '../shared/pipes/language-format.pipe';
 import { Location } from '@angular/common';
+import { CountryService } from '../shared/country.service';
 
 @Component({
   selector: 'app-country-detail',
