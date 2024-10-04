@@ -8,7 +8,7 @@ import { CountryCardComponent } from './components/country-card/country-card.com
 import { debounceTime, distinctUntilChanged, Observable } from 'rxjs';
 import { CountryViewModel } from './shared/models/countries.model';
 import { CommonModule } from '@angular/common';
-import { CountryDataService } from './shared/country-data.servuce';
+import { CountryDataService } from './shared/country-data.service';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +24,7 @@ import { CountryDataService } from './shared/country-data.servuce';
     ReactiveFormsModule,
     CountryCardComponent,
   ],
+  providers: [CountryDataService]
 })
 export class HomeComponent implements OnInit {
   searchForm!: FormGroup;
