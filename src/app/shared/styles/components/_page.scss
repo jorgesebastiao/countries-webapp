@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  justify-content: center;
+  .page-container {
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 1440px;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .page {
+    .page-container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+}

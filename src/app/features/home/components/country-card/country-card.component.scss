@@ -1,0 +1,30 @@
+.country-card {
+  border-radius: 0.25rem;
+  box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  .country-card-image {
+    min-width: 300px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .country-card-content {
+    .country-card-title {
+      overflow: hidden;
+      font-weight: 800;
+      color: var(--mat-app-text-color);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    
+    .country-card-text {
+      overflow: hidden;
+      font-weight: 600;
+      color: var(--mat-app-text-color);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

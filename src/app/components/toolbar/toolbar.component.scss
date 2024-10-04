@@ -1,0 +1,37 @@
+.toolbar {
+  display: flex;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  justify-content: center;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+
+  .toolbar-container {
+    max-width: 1440px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex: 1 1 auto;
+
+    .toolbar-spacer {
+      flex: 1 1 auto;
+    }
+
+    .toolbar-title {
+      color: var(--mat-app-text-color);
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .toolbar-button-label {
+      color: var(--mat-app-text-color);
+      font-weight: 800;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .toolbar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

@@ -1,0 +1,49 @@
+<div class="page">
+  <div class="page-container">
+    <div class="home-content">
+      <form class="form" [formGroup]="searchForm" novalidate>
+        <div class="home-search">
+          <mat-form-field appearance="outline" class="home-input-search">
+            <mat-icon matPrefix>search</mat-icon>
+            <input
+              formControlName="search"
+              type="search"
+              matInput
+              placeholder="Search for a country..."
+            />
+          </mat-form-field>
+          <span class="home-spacer"></span>
+          <mat-form-field class="home-filter-regions" appearance="outline">
+            <mat-select
+              formControlName="region"
+              placeholder="Filter by Region"
+              hideSingleSelectionIndicator
+            >
+              <mat-option value="africa">Africa</mat-option>
+              <mat-option value="americas">Ameríca</mat-option>
+              <mat-option value="asia">Asia</mat-option>
+              <mat-option value="europe">Europe</mat-option>
+              <mat-option value="antarctic">Oceania</mat-option>
+              <mat-option value="polar">Polar</mat-option>
+            </mat-select>
+            <span
+              *ngIf="searchForm.get('region')?.value"
+              class="home-filter-clear"
+              matSuffix
+              (click)="handleClearFilter()"
+            >
+              <mat-icon matPrefix>close</mat-icon>
+            </span>
+          </mat-form-field>
+        </div>
+      </form>
+      <div class="home-country-cards">
+        <app-country-card
+          class="home-country-item"
+          *ngFor="let country of $countries | async"
+          [country]="country"
+        ></app-country-card>
+      </div>
+    </div>
+  </div>
+</div>

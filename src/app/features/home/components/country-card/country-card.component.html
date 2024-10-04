@@ -1,0 +1,18 @@
+<mat-card
+  appearance="outlined"
+  class="country-card"
+  (click)="handleCountryDetail()"
+>
+  <img
+    mat-card-image
+    class="country-card-image"
+    [src]="country.flags.png"
+    [alt]="country.name"
+  />
+  <mat-card-content class="country-card-content">
+    <p class="country-card-title"><strong>{{country.name}}</strong></p>
+    <p class="country-card-text"><strong>Population: </strong>{{country.population | number:'1.0-0' }}</p>
+    <p class="country-card-text"><strong>Region: </strong>{{country.region}}</p>
+    <p class="country-card-text"><strong>Capital: </strong>{{country.capital}}</p>
+  </mat-card-content>
+</mat-card>
