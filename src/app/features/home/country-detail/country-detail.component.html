@@ -1,0 +1,84 @@
+<div class="page">
+  <div class="page-container">
+    <div class="country-detail-content">
+      <div class="country-detail-button-container">
+        <button
+          mat-flat-button
+          class="country-detail-button-back"
+          (click)="handleBack()"
+        >
+          <mat-icon fontSet="material-icons-outlined">arrow_back</mat-icon>
+          Back
+        </button>
+      </div>
+      <div class="country-detail-wrapper">
+        <div class="country-detail-container">
+          <img class="country-detail-image" [src]="country.flags.png" />
+        </div>
+        <div class="country-detail-container">
+          <h3 class="country-detail-title">{{ country.name }}</h3>
+          <div class="country-detail-info">
+            <div class="country-detail-section">
+              <p class="country-detail-text">
+                <strong>Native Name:</strong>
+                {{ country.nativeName }}
+              </p>
+              <p class="country-detail-text">
+                <strong>Population:</strong>
+                {{ country.population | number : "1.0" }}
+              </p>
+              <p class="country-detail-text">
+                <strong>Region:</strong>
+                {{ country.region }}
+              </p>
+              <p class="country-detail-text">
+                <strong>Sub Region:</strong>
+                {{ country.subregion }}
+              </p>
+              <p class="country-detail-text">
+                <strong>Capital:</strong>
+                {{ country.capital }}
+              </p>
+            </div>
+
+            <div class="country-detail-section">
+              <p class="country-detail-text">
+                <strong>Top Level Domain:</strong>
+                {{ country.topLevelDomain }}
+              </p>
+              <p class="country-detail-text">
+                <strong>Currencies:</strong>
+                {{ country.currencies | currencyFormat }}
+              </p>
+              <p class="country-detail-text">
+                <strong>Languages:</strong>
+                {{ country.languages | languageFormat }}
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <p class="country-detail-text">
+              <strong>Border Countries:</strong>
+            </p>
+            <ng-container *ngIf="!isEmpty()">
+              <div class="country-detail-button-wrapper">
+                <button
+                  *ngFor="let borderCountry of country.borders"
+                  mat-flat-button
+                  class="country-detail-button-border"
+                  (click)="handleNavigateBorder(borderCountry)"
+                >
+                  {{ borderCountry }}
+                </button>
+              </div>
+            </ng-container>
+            <ng-container *ngIf="isEmpty()">
+              <p>This country has no border countries</p>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

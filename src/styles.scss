@@ -1,0 +1,17 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use "app/shared/styles/material.scss";
+@import "app/shared/styles/components/page";
+@import "app/shared/styles/components/form";
+@import "app/shared/styles/components/mat-select";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito Sans, sans-serif;
+  background-color: var(--mat-app-background-color);
+}
