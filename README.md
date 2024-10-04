@@ -1,6 +1,7 @@
 # Frontend Mentor - REST Countries API with color theme switcher
 
-![Live Demo](https://jorgesebastiao-dev.firebaseapp.com)
+[Live Demo](https://jorgesebastiao-dev.firebaseapp.com)
+
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
