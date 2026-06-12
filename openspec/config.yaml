@@ -1,0 +1,21 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+context: |
+  Tech stack: Angular 18 (standalone components, no NgModules), Angular Material (Material 3 theming), RxJS, SCSS, TypeScript strict mode.
+  App: Frontend Mentor "REST Countries API" challenge — country list with search/region filter, detail page with border navigation, light/dark theme toggle.
+  Data: REST Countries v2 API with fallback to local src/assets/data.json snapshot on failure.
+  Conventions: conventional commits (feat:, fix:, ...); path aliases @components/*, @features/*, @shared/*; feature code under src/app/features/, cross-cutting UI under src/app/components/.
+  Deploy: Firebase Hosting (dist/countries-webapp/browser).
+  See CLAUDE.md for detailed architecture notes.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
