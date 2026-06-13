@@ -35,6 +35,29 @@
               <mat-icon matPrefix>close</mat-icon>
             </span>
           </mat-form-field>
+          <mat-form-field class="home-filter-world-cup" appearance="outline">
+            <mat-select
+              formControlName="worldCup"
+              placeholder="Filter by World Cup"
+              hideSingleSelectionIndicator
+            >
+              <mat-option [value]="null">All World Cups</mat-option>
+              <mat-option
+                *ngFor="let edition of worldCupEditions"
+                [value]="edition.year"
+              >
+                {{ edition.year }} — {{ edition.hostNames.join(", ") }}
+              </mat-option>
+            </mat-select>
+            <span
+              *ngIf="searchForm.get('worldCup')?.value"
+              class="home-filter-clear"
+              matSuffix
+              (click)="handleClearFilter()"
+            >
+              <mat-icon matPrefix>close</mat-icon>
+            </span>
+          </mat-form-field>
         </div>
       </form>
       <div class="home-country-cards">
@@ -42,6 +65,7 @@
           class="home-country-item"
           *ngFor="let country of $countries | async"
           [country]="country"
+          [worldCupRole]="getWorldCupRole(country)"
         ></app-country-card>
       </div>
     </div>

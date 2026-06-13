@@ -1,0 +1,186 @@
+[
+  {
+    "year": 1930,
+    "hosts": ["URY"],
+    "hostNames": ["Uruguay"],
+    "champion": "URY",
+    "participants": ["ARG", "BEL", "BOL", "BRA", "CHL", "FRA", "MEX", "PER", "PRY", "ROU", "SRB", "URY", "USA"],
+    "historicalNames": { "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1934,
+    "hosts": ["ITA"],
+    "hostNames": ["Italy"],
+    "champion": "ITA",
+    "participants": ["ARG", "AUT", "BEL", "BRA", "CHE", "CZE", "DEU", "EGY", "ESP", "FRA", "HUN", "ITA", "NLD", "ROU", "SWE", "USA"],
+    "historicalNames": { "CZE": "Czechoslovakia" }
+  },
+  {
+    "year": 1938,
+    "hosts": ["FRA"],
+    "hostNames": ["France"],
+    "champion": "ITA",
+    "participants": ["BEL", "BRA", "CHE", "CUB", "CZE", "DEU", "FRA", "HUN", "IDN", "ITA", "NLD", "NOR", "POL", "ROU", "SWE"],
+    "historicalNames": { "CZE": "Czechoslovakia", "IDN": "Dutch East Indies" }
+  },
+  {
+    "year": 1950,
+    "hosts": ["BRA"],
+    "hostNames": ["Brazil"],
+    "champion": "URY",
+    "participants": ["BOL", "BRA", "CHE", "CHL", "ESP", "GBR", "ITA", "MEX", "PRY", "SRB", "SWE", "URY", "USA"],
+    "historicalNames": { "GBR": "England", "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1954,
+    "hosts": ["CHE"],
+    "hostNames": ["Switzerland"],
+    "champion": "DEU",
+    "participants": ["AUT", "BEL", "BRA", "CHE", "CZE", "DEU", "FRA", "GBR", "HUN", "ITA", "KOR", "MEX", "SRB", "TUR", "URY"],
+    "historicalNames": { "CZE": "Czechoslovakia", "DEU": "West Germany", "GBR": "England, Scotland", "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1958,
+    "hosts": ["SWE"],
+    "hostNames": ["Sweden"],
+    "champion": "BRA",
+    "participants": ["ARG", "AUT", "BRA", "CZE", "DEU", "FRA", "GBR", "HUN", "MEX", "PRY", "RUS", "SRB", "SWE"],
+    "historicalNames": { "CZE": "Czechoslovakia", "DEU": "West Germany", "GBR": "England, Northern Ireland, Scotland, Wales", "RUS": "Soviet Union", "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1962,
+    "hosts": ["CHL"],
+    "hostNames": ["Chile"],
+    "champion": "BRA",
+    "participants": ["ARG", "BGR", "BRA", "CHE", "CHL", "COL", "CZE", "DEU", "ESP", "GBR", "HUN", "ITA", "MEX", "RUS", "SRB", "URY"],
+    "historicalNames": { "CZE": "Czechoslovakia", "DEU": "West Germany", "GBR": "England", "RUS": "Soviet Union", "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1966,
+    "hosts": ["GBR"],
+    "hostNames": ["England"],
+    "champion": "GBR",
+    "participants": ["ARG", "BGR", "BRA", "CHE", "CHL", "DEU", "ESP", "FRA", "GBR", "HUN", "ITA", "MEX", "PRK", "PRT", "RUS", "URY"],
+    "historicalNames": { "DEU": "West Germany", "GBR": "England", "RUS": "Soviet Union" }
+  },
+  {
+    "year": 1970,
+    "hosts": ["MEX"],
+    "hostNames": ["Mexico"],
+    "champion": "BRA",
+    "participants": ["BEL", "BGR", "BRA", "CZE", "DEU", "GBR", "ISR", "ITA", "MAR", "MEX", "PER", "ROU", "RUS", "SLV", "SWE", "URY"],
+    "historicalNames": { "CZE": "Czechoslovakia", "DEU": "West Germany", "GBR": "England", "RUS": "Soviet Union" }
+  },
+  {
+    "year": 1974,
+    "hosts": ["DEU"],
+    "hostNames": ["West Germany"],
+    "champion": "DEU",
+    "participants": ["ARG", "AUS", "BGR", "BRA", "CHL", "COD", "DEU", "GBR", "HTI", "ITA", "NLD", "POL", "SRB", "SWE", "URY"],
+    "historicalNames": { "COD": "Zaire", "DEU": "West Germany, East Germany", "GBR": "Scotland", "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1978,
+    "hosts": ["ARG"],
+    "hostNames": ["Argentina"],
+    "champion": "ARG",
+    "participants": ["ARG", "AUT", "BRA", "DEU", "ESP", "FRA", "GBR", "HUN", "IRN", "ITA", "MEX", "NLD", "PER", "POL", "SWE", "TUN"],
+    "historicalNames": { "DEU": "West Germany", "GBR": "Scotland" }
+  },
+  {
+    "year": 1982,
+    "hosts": ["ESP"],
+    "hostNames": ["Spain"],
+    "champion": "ITA",
+    "participants": ["ARG", "AUT", "BEL", "BRA", "CHL", "CMR", "CZE", "DEU", "DZA", "ESP", "FRA", "GBR", "HND", "HUN", "ITA", "KWT", "NZL", "PER", "POL", "RUS", "SLV", "SRB"],
+    "historicalNames": { "CZE": "Czechoslovakia", "DEU": "West Germany", "GBR": "England, Northern Ireland, Scotland", "RUS": "Soviet Union", "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1986,
+    "hosts": ["MEX"],
+    "hostNames": ["Mexico"],
+    "champion": "ARG",
+    "participants": ["ARG", "BEL", "BGR", "BRA", "CAN", "DEU", "DNK", "DZA", "ESP", "FRA", "GBR", "HUN", "IRQ", "ITA", "KOR", "MAR", "MEX", "POL", "PRT", "PRY", "RUS", "URY"],
+    "historicalNames": { "DEU": "West Germany", "GBR": "England, Northern Ireland, Scotland", "RUS": "Soviet Union" }
+  },
+  {
+    "year": 1990,
+    "hosts": ["ITA"],
+    "hostNames": ["Italy"],
+    "champion": "DEU",
+    "participants": ["ARE", "ARG", "AUT", "BEL", "BRA", "CMR", "COL", "CRI", "CZE", "DEU", "EGY", "ESP", "GBR", "IRL", "ITA", "KOR", "NLD", "ROU", "RUS", "SRB", "SWE", "URY", "USA"],
+    "historicalNames": { "CZE": "Czechoslovakia", "DEU": "West Germany", "GBR": "England, Scotland", "RUS": "Soviet Union", "SRB": "Yugoslavia" }
+  },
+  {
+    "year": 1994,
+    "hosts": ["USA"],
+    "hostNames": ["United States"],
+    "champion": "BRA",
+    "participants": ["ARG", "BEL", "BGR", "BOL", "BRA", "CHE", "CMR", "COL", "DEU", "ESP", "GRC", "IRL", "ITA", "KOR", "MAR", "MEX", "NGA", "NLD", "NOR", "ROU", "RUS", "SAU", "SWE", "USA"],
+    "historicalNames": {}
+  },
+  {
+    "year": 1998,
+    "hosts": ["FRA"],
+    "hostNames": ["France"],
+    "champion": "FRA",
+    "participants": ["ARG", "AUT", "BEL", "BGR", "BRA", "CHL", "CMR", "COL", "DEU", "DNK", "ESP", "FRA", "GBR", "HRV", "IRN", "ITA", "JAM", "JPN", "KOR", "MAR", "MEX", "NGA", "NLD", "NOR", "PRY", "ROU", "SAU", "SRB", "TUN", "USA", "ZAF"],
+    "historicalNames": { "GBR": "England, Scotland", "SRB": "FR Yugoslavia" }
+  },
+  {
+    "year": 2002,
+    "hosts": ["KOR", "JPN"],
+    "hostNames": ["South Korea", "Japan"],
+    "champion": "BRA",
+    "participants": ["ARG", "BEL", "BRA", "CHN", "CMR", "CRI", "DEU", "DNK", "ECU", "ESP", "FRA", "GBR", "HRV", "IRL", "ITA", "JPN", "KOR", "MEX", "NGA", "POL", "PRT", "PRY", "RUS", "SAU", "SEN", "SVN", "SWE", "TUN", "TUR", "URY", "USA", "ZAF"],
+    "historicalNames": { "GBR": "England" }
+  },
+  {
+    "year": 2006,
+    "hosts": ["DEU"],
+    "hostNames": ["Germany"],
+    "champion": "ITA",
+    "participants": ["AGO", "ARG", "AUS", "BRA", "CHE", "CIV", "CRI", "CZE", "DEU", "ECU", "ESP", "FRA", "GBR", "GHA", "HRV", "IRN", "ITA", "JPN", "KOR", "MEX", "NLD", "POL", "PRT", "PRY", "SAU", "SRB", "SWE", "TGO", "TTO", "TUN", "UKR", "USA"],
+    "historicalNames": { "GBR": "England", "SRB": "Serbia and Montenegro" }
+  },
+  {
+    "year": 2010,
+    "hosts": ["ZAF"],
+    "hostNames": ["South Africa"],
+    "champion": "ESP",
+    "participants": ["ARG", "AUS", "BRA", "CHE", "CHL", "CIV", "CMR", "DEU", "DNK", "DZA", "ESP", "FRA", "GBR", "GHA", "GRC", "HND", "ITA", "JPN", "KOR", "MEX", "NGA", "NLD", "NZL", "PRK", "PRT", "PRY", "SRB", "SVK", "SVN", "URY", "USA", "ZAF"],
+    "historicalNames": { "GBR": "England" }
+  },
+  {
+    "year": 2014,
+    "hosts": ["BRA"],
+    "hostNames": ["Brazil"],
+    "champion": "DEU",
+    "participants": ["ARG", "AUS", "BEL", "BIH", "BRA", "CHE", "CHL", "CIV", "CMR", "COL", "CRI", "DEU", "DZA", "ECU", "ESP", "FRA", "GBR", "GHA", "GRC", "HND", "HRV", "IRN", "ITA", "JPN", "KOR", "MEX", "NGA", "NLD", "PRT", "RUS", "URY", "USA"],
+    "historicalNames": { "GBR": "England" }
+  },
+  {
+    "year": 2018,
+    "hosts": ["RUS"],
+    "hostNames": ["Russia"],
+    "champion": "FRA",
+    "participants": ["ARG", "AUS", "BEL", "BRA", "CHE", "COL", "CRI", "DEU", "DNK", "EGY", "ESP", "FRA", "GBR", "HRV", "IRN", "ISL", "JPN", "KOR", "MAR", "MEX", "NGA", "PAN", "PER", "POL", "PRT", "RUS", "SAU", "SEN", "SRB", "SWE", "TUN", "URY"],
+    "historicalNames": { "GBR": "England" }
+  },
+  {
+    "year": 2022,
+    "hosts": ["QAT"],
+    "hostNames": ["Qatar"],
+    "champion": "ARG",
+    "participants": ["ARG", "AUS", "BEL", "BRA", "CAN", "CHE", "CMR", "CRI", "DEU", "DNK", "ECU", "ESP", "FRA", "GBR", "GHA", "HRV", "IRN", "JPN", "KOR", "MAR", "MEX", "NLD", "POL", "PRT", "QAT", "SAU", "SEN", "SRB", "TUN", "URY", "USA"],
+    "historicalNames": { "GBR": "England, Wales" }
+  },
+  {
+    "year": 2026,
+    "hosts": ["USA", "MEX", "CAN"],
+    "hostNames": ["United States", "Mexico", "Canada"],
+    "champion": null,
+    "participants": ["ARG", "AUS", "AUT", "BEL", "BIH", "BRA", "CAN", "CHE", "CIV", "COD", "COL", "CPV", "CUW", "CZE", "DEU", "DZA", "ECU", "EGY", "ESP", "FRA", "GBR", "GHA", "HRV", "HTI", "IRN", "IRQ", "JOR", "JPN", "KOR", "MAR", "MEX", "NLD", "NOR", "NZL", "PAN", "PRT", "PRY", "QAT", "SAU", "SEN", "SWE", "TUN", "TUR", "URY", "USA", "UZB", "ZAF"],
+    "historicalNames": { "GBR": "England, Scotland" }
+  }
+]

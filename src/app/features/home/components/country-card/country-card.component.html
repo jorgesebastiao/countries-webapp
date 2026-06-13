@@ -3,12 +3,22 @@
   class="country-card"
   (click)="handleCountryDetail()"
 >
-  <img
-    mat-card-image
-    class="country-card-image"
-    [src]="country.flags.png"
-    [alt]="country.name"
-  />
+  <div class="country-card-flag">
+    <img
+      mat-card-image
+      class="country-card-image"
+      [src]="country.flags.png"
+      [alt]="country.name"
+    />
+    <div *ngIf="worldCupRole" class="country-card-badges">
+      <span *ngIf="isChampion" class="country-card-badge country-card-badge-champion">
+        🏆 Champion
+      </span>
+      <span *ngIf="isHost" class="country-card-badge country-card-badge-host">
+        📍 Host
+      </span>
+    </div>
+  </div>
   <mat-card-content class="country-card-content">
     <p class="country-card-title"><strong>{{country.name}}</strong></p>
     <p class="country-card-text"><strong>Population: </strong>{{country.population | number:'1.0-0' }}</p>
