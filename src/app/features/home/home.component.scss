@@ -18,7 +18,8 @@
       flex: 1 1 auto;
     }
 
-    .home-filter-regions {
+    .home-filter-regions,
+    .home-filter-world-cup {
       display: flex;
 
       .home-filter-clear {
@@ -32,6 +33,10 @@
           font-size: 18px;
         }
       }
+    }
+
+    .home-filter-world-cup {
+      margin-left: 1rem;
     }
   }
 
@@ -50,9 +55,14 @@
         width: 100%;
       }
 
-      .home-filter-regions {
+      .home-filter-regions,
+      .home-filter-world-cup {
         display: flex;
         width: 60%;
+      }
+
+      .home-filter-world-cup {
+        margin-left: 0;
       }
     }
 
